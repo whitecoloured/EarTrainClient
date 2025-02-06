@@ -1,0 +1,57 @@
+
+header
+{
+    height: 6rem;
+    max-height: fit-content;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .headerContainer
+{
+    height: 100%;
+    width: 96%;
+    display: flex;
+    align-items: center;
+}
+
+header .headerContainer .logo
+{
+    height: 70%;
+    margin-right: 20%;
+    position: relative;
+}
+
+header .headerContainer .navlink
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5em;
+    margin-right: 2.5%;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+    transition: 0.150s ease-in-out;
+    text-decoration: none;
+}
+
+header .headerContainer .slash
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5em;
+    margin-right: 0.5%;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    cursor:default;
+}
+
+header .headerContainer .navlink:hover
+{
+    color: rgb(187, 187, 187);
+    transition: 0.150s ease-in-out;
+}

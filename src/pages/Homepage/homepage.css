@@ -1,0 +1,237 @@
+.homePageForm
+{
+    height: 80rem;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48%;
+    object-fit: cover;
+    opacity: 0.35;
+}
+
+.homePageForm .container
+{
+    width: 92%;
+    height: 100%;
+    z-index: 3;
+}
+
+.homePageForm .container .topSection
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.homePageForm .container .topSection h1
+{
+    font-size: 2em;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 6px;
+}
+
+.homePageForm .container .topSection p
+{
+    font-size: 1.5em;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: rgb(182, 182, 182);
+}
+
+.homePageForm .container .topSection button
+{
+    cursor: pointer;
+    height: 25%;
+    width: 30%;
+    border-radius: 10px 10px 10px 10px;
+    background-color:  rgb(121, 167, 120);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+}
+
+.homePageForm .container .topSection button:hover
+{
+    background-color: rgb(70, 84, 70);
+    transition: 0.3s ease-in-out;
+}
+
+
+.homePageForm .container .midSection
+{
+    height: 25%;
+    width: 100%;
+    background-color: #2d2d2d4e;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.homePageForm .container .midSection .cardComp
+{
+    width: 32%;
+    height: 100%;
+    background-color: #252525;
+    border: 1px solid #2c2c2c;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.homePageForm .container .midSection .cardComp:hover
+{
+    height: 106%;
+    width: 34%;
+    transform: translateY(-5%);
+    background-color: #2d2d2d;
+    box-shadow: 0px 3px 10px 0px rgba(44, 44, 42, 0.862);
+    transition: 0.3s ease-in-out;
+}
+
+.homePageForm .container .midSection .cardComp .cardHeader
+{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homePageForm .container .midSection .cardComp .cardHeader h3
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5em;
+    color: whitesmoke;
+    cursor: default;
+}
+
+.homePageForm .container .midSection .cardComp .cardMain
+{
+    height: 50%;
+    width: 94%;
+    margin-left: 13px;
+}
+
+.homePageForm .container .midSection .cardComp .cardMain p
+{
+    cursor: default;
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+}
+
+.homePageForm .container .midSection .cardComp .cardFooter
+{
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.homePageForm .container .midSection .cardComp .cardFooter button
+{
+    height: 100%;
+    width: 75%;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(121, 167, 120);
+    color: whitesmoke;
+    transition: 0.3s ease-in-out;
+}
+
+.homePageForm .container .midSection .cardComp .cardFooter button:hover
+{
+    background-color: rgb(70, 84, 70);
+    transition: 0.3s ease-in-out;
+}
+
+.homePageForm .container p.whyETText
+{
+    color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 2.3em;
+    cursor: default;
+}
+
+.homePageForm .container .footerSection
+{
+    background-color: #2d2d2d4e;
+    border-radius: 5px 5px 5px 5px;
+    height: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.homePageForm .container .footerSection .cardComp
+{
+    width: 32%;
+    height: 100%;
+    background-color: #252525;
+    border: 1px solid #2c2c2c;
+    margin-bottom: 1.5%;
+    transition: 0.3s ease-in-out;
+}
+
+.homePageForm .container .footerSection .cardComp:hover
+{
+    height: 106%;
+    width: 34%;
+    transform: translateY(-5%);
+    background-color: #2d2d2d;
+    box-shadow: 0px 3px 10px 0px rgba(44, 44, 42, 0.862);
+    transition: 0.3s ease-in-out;
+}
+
+.homePageForm .container .footerSection .cardComp .cardHeader
+{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homePageForm .container .footerSection .cardComp .cardHeader h3
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5em;
+    color: whitesmoke;
+    cursor: default;
+}
+
+.homePageForm .container .footerSection .cardComp .cardMain
+{
+    height: 70%;
+    width: 94%;
+    margin-left: 13px;
+}
+
+.homePageForm .container .footerSection .cardComp .cardMain p
+{
+    cursor: default;
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 1.3em;
+}
+

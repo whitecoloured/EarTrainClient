@@ -1,0 +1,107 @@
+.loginPageForm
+{
+    height: 36.77rem;
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginPageForm .mainSection
+{
+    background-color: #1a1a1a4e;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginPageForm .mainSection form
+{
+    background-color: #252525;
+    height: 85%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.loginPageForm .mainSection form:hover
+{
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.loginPageForm .mainSection .imageContainer
+{
+    width: 75%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginPageForm .mainSection .imageContainer img
+{
+    height: 70px;
+    width:80px;
+}
+
+.loginPageForm .mainSection form .dataContainer
+{
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    height: 60%;
+}
+
+
+.loginPageForm .mainSection form .dataContainer label
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 2em;
+    margin-bottom: 15px;
+    cursor: default;
+}
+
+.loginPageForm .mainSection form .dataContainer input
+{
+    margin-bottom: 30px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.loginPageForm .mainSection form .dataContainer input:focus
+{
+    box-shadow: 2px 2px 15px 0px rgba(224, 224, 224, 0.397);
+    transition: 0.3s ease-in-out;
+}
+
+.loginPageForm .mainSection form .dataContainer button
+{
+    height: 35px;
+    background-color: rgb(20, 172, 18);
+    border: none;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.loginPageForm .mainSection form .dataContainer button:hover
+{
+    background-color: rgb(99, 200, 97);
+    transition: 0.3s ease-in-out;
+}
+
+
